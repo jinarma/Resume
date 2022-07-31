@@ -1,0 +1,40 @@
+.phone {
+	display:-webkit-inline-flex;
+	text-align: center;
+}
+
+.contact-info table{
+	/* display: flex; */		/* brings table to center */
+	justify-content: center;
+	/* text-align: left; */
+	/* border-style: solid; */
+	border-collapse: collapse;
+	/* padding-left: 0%; */
+}
+
+.contact-info td{
+	padding-left: 10px;
+}
+
+/* checking to see how scroll works */
+
+/* .about-me h1, h2, li, h4{
+	padding: 200px;
+} */
+
+/* body {
+	background-image: url('D:\\Programming\\freecodecamp\\Resume\\mountains silluette in the distance.jpg');
+	background-size: cover;
+} */
+
+.column-1 {
+	background-image: url('D:\\Programming\\freecodecamp\\Resume\\mountains silluette in the distance.jpg');
+	background-size:cover;
+}
+
+.row {
+	display: flex;
+}
+.column-1, .column-2 {
+	flex: 20%, 80%;
+}
