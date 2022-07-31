@@ -1,0 +1,18 @@
+.leftside, .rightside {
+	height: 100vh;
+	width: 100%;
+}
+
+@media screen and (min-width:768) {
+	.leftside, .rightside {
+		height: 50vh;
+	}
+}
+
+.leftside {
+	background-color: red;
+}
+
+.rightside {
+	background-color: blue;
+}

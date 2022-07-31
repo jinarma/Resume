@@ -16,6 +16,7 @@
 	padding-left: 10px;
 }
 
+
 /* checking to see how scroll works */
 
 /* .about-me h1, h2, li, h4{
@@ -31,10 +32,26 @@
 	background-image: url('D:\\Programming\\freecodecamp\\Resume\\mountains silluette in the distance.jpg');
 	background-size:cover;
 }
+* {
+	box-sizing: border-box;
+}
 
 .row {
 	display: flex;
 }
+/* 
+.row > * {
+	flex-grow: 1;
+} */
+
 .column-1, .column-2 {
-	flex: 20%, 80%;
+	flex-grow: .5, .5;
 }
+
+/* .header-row{
+	display: flex;
+}
+
+.header-column-1, .header-column-2 {
+	flex: 50%, 50%;
+} */
